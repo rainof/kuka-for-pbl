@@ -1,0 +1,3 @@
+<launch>
+  <node name="kuka_tutorial" pkg="kuka_tutorial" type="cartesianMotion" output="screen"/>
+</launch>
