@@ -238,8 +238,3 @@ add_executable(cartesianMotion src/cartesianMotion.cpp)
 target_link_libraries(cartesianMotion ${catkin_LIBRARIES})
 add_dependencies(cartesianMotion kuka_tutorial_generate_messages_cpp
         iiwa_msgs_generate_messages_cpp)
-
-add_executable(manual_pick src/manual_pick.cpp)
-target_link_libraries(manual_pick ${catkin_LIBRARIES})
-add_dependencies(manual_pick kuka_tutorial_generate_messages_cpp
-        iiwa_msgs_generate_messages_cpp)
